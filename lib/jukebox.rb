@@ -37,7 +37,7 @@ end
 def run
   loop do
     puts "Please enter a command:"
-    command = gets.chomp
+    command = gets.strip
     if command == "help"
       help
     elsif command == "list"
